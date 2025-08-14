@@ -1,0 +1,29 @@
+using System;
+
+public class DemographicsProgram
+{
+    static void Main(string[] args)
+    {
+        string studentId = "23809379";
+        string fullName = "Therence Nina Santiago";
+        string nickName = "Nin";
+        string gender = "Female";
+        string yearLevel = "2nd Year";
+        string homeLocation = "Pha.1 Blk. 9 Lt. 11 Emerald St. Villa Leyson, Bacayan, Cebu City";
+        string course = "BSIT";
+        string mobileNumber = "09620835291";
+        string personalEmail = "santiagotherencenina94@gmail.com";
+        
+        Console.WriteLine("Demographics Program by [Therence Nina Santiago]\n");
+
+        Console.WriteLine("Student ID: " + studentId);    
+        Console.WriteLine("Full Name: " + fullName);
+        Console.WriteLine("Nick Name: " + nickName);
+        Console.WriteLine("Gender: " + gender);
+        Console.WriteLine("Year Level: " + yearLevel);
+        Console.WriteLine("Home Location: " + homeLocation);
+        Console.WriteLine("Course: " + course);
+        Console.WriteLine("Mobile Number: " + mobileNumber);
+        Console.WriteLine("Personal Email: " + personalEmail);
+    }
+}
